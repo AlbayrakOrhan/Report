@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FD945958-EB55-4030-8751-F61F49EE033F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8A04532F-B7DE-4BB4-91F1-842B1B3B46AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{05BB1799-2CE8-48A2-B569-5032CBF1823F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Report.Infrastructure", "Report.Infrastructure\Report.Infrastructure.csproj", "{6FB53BA5-EBAB-4AB8-A0CE-D630903FBBC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Report.Application", "Report.Application\Report.Application.csproj", "{174D471E-C209-4FEF-BA34-41E7BA4E1197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Report.Domain", "Report.Domain\Report.Domain.csproj", "{FE255B55-FAFF-4252-BB96-BFC00B728618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Report.Persistence", "Report.Persistence\Report.Persistence.csproj", "{57AEF4EC-D811-499C-BE17-11ABD039AC25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Report.Api", "Report.Api\Report.Api.csproj", "{0404CD9A-4B45-4DDD-97B9-C694ABD5D849}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Background", "Background", "{885BE708-BB0B-42CB-A223-3A621B30A2B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Report.Consumer", "Report.Consumer\Report.Consumer.csproj", "{9FB0A87A-A23E-45D4-B19A-09FD12F392EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FB53BA5-EBAB-4AB8-A0CE-D630903FBBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FB53BA5-EBAB-4AB8-A0CE-D630903FBBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FB53BA5-EBAB-4AB8-A0CE-D630903FBBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FB53BA5-EBAB-4AB8-A0CE-D630903FBBC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174D471E-C209-4FEF-BA34-41E7BA4E1197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174D471E-C209-4FEF-BA34-41E7BA4E1197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174D471E-C209-4FEF-BA34-41E7BA4E1197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174D471E-C209-4FEF-BA34-41E7BA4E1197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE255B55-FAFF-4252-BB96-BFC00B728618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE255B55-FAFF-4252-BB96-BFC00B728618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE255B55-FAFF-4252-BB96-BFC00B728618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE255B55-FAFF-4252-BB96-BFC00B728618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57AEF4EC-D811-499C-BE17-11ABD039AC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AEF4EC-D811-499C-BE17-11ABD039AC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AEF4EC-D811-499C-BE17-11ABD039AC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AEF4EC-D811-499C-BE17-11ABD039AC25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0404CD9A-4B45-4DDD-97B9-C694ABD5D849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0404CD9A-4B45-4DDD-97B9-C694ABD5D849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0404CD9A-4B45-4DDD-97B9-C694ABD5D849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0404CD9A-4B45-4DDD-97B9-C694ABD5D849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB0A87A-A23E-45D4-B19A-09FD12F392EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB0A87A-A23E-45D4-B19A-09FD12F392EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB0A87A-A23E-45D4-B19A-09FD12F392EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB0A87A-A23E-45D4-B19A-09FD12F392EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FB53BA5-EBAB-4AB8-A0CE-D630903FBBC9} = {8A04532F-B7DE-4BB4-91F1-842B1B3B46AE}
+		{174D471E-C209-4FEF-BA34-41E7BA4E1197} = {FD945958-EB55-4030-8751-F61F49EE033F}
+		{FE255B55-FAFF-4252-BB96-BFC00B728618} = {FD945958-EB55-4030-8751-F61F49EE033F}
+		{57AEF4EC-D811-499C-BE17-11ABD039AC25} = {8A04532F-B7DE-4BB4-91F1-842B1B3B46AE}
+		{0404CD9A-4B45-4DDD-97B9-C694ABD5D849} = {05BB1799-2CE8-48A2-B569-5032CBF1823F}
+		{9FB0A87A-A23E-45D4-B19A-09FD12F392EB} = {885BE708-BB0B-42CB-A223-3A621B30A2B5}
+	EndGlobalSection
+EndGlobal
