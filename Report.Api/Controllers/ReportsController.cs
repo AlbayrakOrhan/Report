@@ -1,6 +1,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Report.Application.Commands.CreateNewReport;
+using Report.Application.Queries;
 
 namespace Report.Api.Controllers;
 
@@ -18,8 +19,14 @@ public class ReportsController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult> Post([FromBody] CreateNewReportCommand command)
+    public async Task<ActionResult> Post()
     {
-        return Ok(await _mediator.Send(command));
+        return Ok(await _mediator.Send(new CreateNewReportCommand()));
+    }
+
+    [HttpGet]
+    public async Task<ActionResult> Get()
+    {
+        return Ok(await _mediator.Send(new GetReportRequestsQuery()));
     }
 }

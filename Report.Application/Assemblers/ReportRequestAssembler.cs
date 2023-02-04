@@ -1,4 +1,6 @@
+using Report.Application.Dtos;
 using Report.Application.Interfaces;
+using Report.Application.Queries;
 using Report.Domain.Entities;
 using Report.Domain.Enums;
 
@@ -12,6 +14,14 @@ public class ReportRequestAssembler : IReportRequestAssembler
         {
             Id = Guid.NewGuid(),
             Status = ReportStatus.InProgress
+        };
+    }
+
+    public GetReportRequestsQueryResult MapToGetReportRequestsQueryResult(List<ReportRequestDto> reportRequestDtos)
+    {
+        return new GetReportRequestsQueryResult()
+        {
+            ReportRequests = reportRequestDtos
         };
     }
 }
